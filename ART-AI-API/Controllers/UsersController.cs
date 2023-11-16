@@ -81,9 +81,7 @@ namespace Art_AI_API.Controllers
                 user = new ApplicationUser
                 {
                     UserName = model.UserName,
-                    Email = model.UserName,
-                    FirstName = model.FirstName,
-                    LastName = model.LastName
+                    Email = model.UserName
                 };
 
                 var hasher = new PasswordHasher<ApplicationUser>();

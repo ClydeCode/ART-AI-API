@@ -58,8 +58,6 @@ namespace Art_AI_API.Data
                     {
                         UserName = userModel.UserName,
                         Email = userModel.Email,
-                        FirstName = userModel.FirstName,
-                        LastName = userModel.LastName,
                         EmailConfirmed = true
                     };
 
